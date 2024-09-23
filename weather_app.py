@@ -5,7 +5,7 @@ import os
 #system settings
 customtkinter.set_appearance_mode('dark')
 customtkinter.set_default_color_theme('green')
-api_key = '5467bbd2d72ced249294333092024e49' #openweather api
+api_key = 'your_api_key_here' #openweather api
 
 def search_city():
     name = city.get()
